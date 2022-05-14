@@ -1,4 +1,4 @@
-package behaivor.action;
+package behavior.action;
 
 
 import behavior.action.Action1;
