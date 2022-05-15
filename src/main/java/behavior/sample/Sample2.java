@@ -5,4 +5,9 @@ public class Sample2 extends Sample{
     protected void step2() {
         System.out.println("Sample2 - step2");
     }
+
+    @Override
+    protected void step3() {
+        System.out.println("Sample2 - step3");
+    }
 }
