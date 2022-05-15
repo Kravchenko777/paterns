@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class ExampleClassTest {
 
     @Test
-    void testSnapshot(){
+    void test(){
         Redactor redactor = new Redactor();
         redactor.setAttrStr("1");
         Snapshot snapshot = redactor.makeSnapshot();
