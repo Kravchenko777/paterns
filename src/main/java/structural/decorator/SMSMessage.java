@@ -7,7 +7,7 @@ public class SMSMessage extends BaseDecorator{
     }
 
     @Override
-    public Boolean sendMessage() {
-        return false;
+    public Integer sendMessage() {
+        return wrapper.sendMessage() + 500;
     }
 }

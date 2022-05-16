@@ -9,7 +9,7 @@ public class BaseDecorator implements Message{
     }
 
     @Override
-    public Boolean sendMessage() {
+    public Integer sendMessage() {
         return wrapper.sendMessage();
     }
 }

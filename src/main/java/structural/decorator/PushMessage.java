@@ -7,7 +7,7 @@ public class PushMessage extends BaseDecorator{
     }
 
     @Override
-    public Boolean sendMessage() {
-        return true;
+    public Integer sendMessage() {
+        return wrapper.sendMessage() + 200;
     }
 }
