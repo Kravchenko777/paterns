@@ -1,9 +1,6 @@
 package structural.comporator;
 
 import org.junit.jupiter.api.Test;
-import structural.bridge.Class1;
-import structural.bridge.Class2;
-import structural.bridge.Form;
 
 import java.util.ArrayList;
 
