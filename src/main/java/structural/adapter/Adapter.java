@@ -1,8 +1,9 @@
 package structural.adapter;
 
-public class Adapter {
+public class Adapter implements IMessage {
 
-    public void doIt(Class1 class1, Class2 class2){
-        class2.doSome(Integer.valueOf(class1.getString()));
+    @Override
+    public String getMessage() {
+        return String.valueOf(new IntegerMessage().getMessage());
     }
 }
