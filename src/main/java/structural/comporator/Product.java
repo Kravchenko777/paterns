@@ -13,7 +13,4 @@ public class Product implements Inter {
         return summ;
     }
 
-    public void doSomeWork(){
-
-    }
 }
