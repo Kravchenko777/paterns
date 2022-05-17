@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-public class ExampleClassTest {
+public class ComporatorTest {
 
     @Test
     void test(){

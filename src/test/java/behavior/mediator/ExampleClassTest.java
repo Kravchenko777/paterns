@@ -1,8 +1,5 @@
 package behavior.mediator;
 
-import behavior.iterator.BasicCollection;
-import behavior.iterator.Iterator1;
-import behavior.iterator.Iterator2;
 import org.junit.jupiter.api.Test;
 
 public class ExampleClassTest {
