@@ -2,11 +2,22 @@ package structural.facade;
 
 public class Facade {
 
-    public void doIt(){
-        Class1 class1 = new Class1();
-        Class2 class2 = new Class2();
-        Class3 class3 = new Class3();
+    public Boolean makeProgram(){
+       IDeveloper developer = new JavaDeveloper();
+       IManager manager = new Manager();
+       ITester tester = new QATester();
 
-        class1.doSomething(); class2.doSomething(); class3.doSomething();
+        manager.manage();
+        developer.write();
+        tester.test();
+        developer.write();
+        tester.test();
+        developer.write();
+        tester.test();
+        developer.write();
+        tester.test();
+        manager.manage();
+
+        return true;
     }
 }
