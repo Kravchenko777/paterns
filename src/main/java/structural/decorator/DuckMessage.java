@@ -10,4 +10,9 @@ public class DuckMessage extends Decorator {
     public String getName() {
         return "Я утка";
     }
+
+    @Override
+    public Integer getSumm() {
+        return 10;
+    }
 }

@@ -10,4 +10,9 @@ public class Needle extends Decorator {
     public String getName() {
         return "Я игла";
     }
+
+    @Override
+    public Integer getSumm() {
+        return wrapper.getSumm() + 1000;
+    }
 }

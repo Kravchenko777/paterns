@@ -10,4 +10,9 @@ public class EggMessage extends Decorator {
     public String getName() {
         return "Я яйцо";
     }
+
+    @Override
+    public Integer getSumm() {
+        return wrapper.getSumm() + 100;
+    }
 }

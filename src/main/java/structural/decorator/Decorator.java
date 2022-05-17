@@ -12,4 +12,9 @@ public class Decorator implements IObject {
     public String getName() {
         return wrapper.getName();
     }
+
+    @Override
+    public Integer getSumm() {
+        return 1;
+    }
 }

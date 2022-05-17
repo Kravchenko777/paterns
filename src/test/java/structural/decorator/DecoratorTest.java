@@ -16,6 +16,8 @@ public class DecoratorTest {
         message = new Needle(message);
         System.out.println(message.getName());
 
+        message.getSumm();
+
     }
 
 }
