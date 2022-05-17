@@ -1,24 +1,25 @@
 package behavior.observer;
 
 
-import behavior.snapshot.Redactor;
-import behavior.snapshot.Snapshot;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ExampleClassTest {
+public class ObserverTest {
 
     @Test
     void testSnapshot(){
         Client client = new Client();
         Client2 client2 = new Client2();
         Client3 client3 = new Client3();
-        Server server = new Server();
+        Newspaper server = new Newspaper();
         server.addClient(client);
         server.addClient(client2);
         server.addClient(client3);
 
-        server.sendMessage();
+        server.sendNews("First news");
+        server.sendNews("Second news");
+        server.sendNews("Last news");
 
+        client3.setNewspaper(server);
+        client3.read();
     }
 }

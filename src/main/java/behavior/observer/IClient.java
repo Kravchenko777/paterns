@@ -2,5 +2,5 @@ package behavior.observer;
 
 public interface IClient {
 
-    public void getMessage();
+    public void getNews(String news);
 }
