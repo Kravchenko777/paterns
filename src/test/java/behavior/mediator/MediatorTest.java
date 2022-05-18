@@ -2,13 +2,14 @@ package behavior.mediator;
 
 import org.junit.jupiter.api.Test;
 
-public class ExampleClassTest {
+public class MediatorTest {
 
     @Test
     void testMediator(){
        IMediator mediator = new Mediator();
-       Element element = new Element();
-       element.doIt(mediator,"some");
+       TextField textField = new TextField(mediator);
+
+       mediator.notifyMe(textField,"click", null);
 
     }
 }

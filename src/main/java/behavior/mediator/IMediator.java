@@ -2,8 +2,6 @@ package behavior.mediator;
 
 public interface IMediator {
 
-
-    public void notifyMe(IElement element, String event);
-
+    public void notifyMe(Element element, String event, String text);
 
 }

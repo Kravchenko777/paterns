@@ -1,8 +1,14 @@
 package behavior.mediator;
 
-public class Element implements IElement{
+public abstract class Element {
+    private IMediator mediator;
 
+    public Element(IMediator mediator){
+        this.mediator = mediator;
+    }
 
+    public abstract void click();
 
+    public abstract void sendKey(String keys);
 
 }
