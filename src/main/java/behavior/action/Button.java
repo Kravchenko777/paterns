@@ -9,7 +9,7 @@ public class Button {
     }
 
     public void onClick(){
-        action.doIt();
+        action.execute();
     }
 
     public void setAction(IAction action){
