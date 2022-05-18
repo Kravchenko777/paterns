@@ -12,7 +12,7 @@ public abstract class Sample {
         System.out.println("step3");
     }
 
-    public void makeWork(){
+    public final void makeWork(){
         step1();
         step2();
         step3();

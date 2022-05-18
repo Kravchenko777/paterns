@@ -3,7 +3,7 @@ package behavior.sample;
 
 import org.junit.jupiter.api.Test;
 
-public class ExampleClassTest {
+public class TemplateMethodTest {
 
 
 
