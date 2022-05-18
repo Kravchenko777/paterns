@@ -13,8 +13,8 @@ public class Player {
         this.state = state;
     }
 
-    public void makeWork(){
-        state.makeWork();
+    public void playGame(){
+        state.play();
     }
 
     public String getStr() {

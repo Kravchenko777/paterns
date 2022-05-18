@@ -8,5 +8,5 @@ public abstract class State {
         this.player = player;
     }
 
-    public abstract void makeWork();
+    public abstract void play();
 }
