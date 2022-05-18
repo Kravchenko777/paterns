@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExampleClassTest {
+public class VisitorTest {
 
     private Boolean is = true;
     static List<Node> nodes = new ArrayList<>();
