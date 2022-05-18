@@ -1,11 +1,9 @@
 package behavior.strategy;
 
 
-import behavior.state.Player;
-import behavior.state.State1;
 import org.junit.jupiter.api.Test;
 
-public class ExampleClassTest {
+public class StrategyTest {
 
     private Boolean is = true;
 
