@@ -7,9 +7,9 @@ public class ActionTest {
 
     @Test
     void testAction(){
-        new Button(new Open()).onClick();
-        new Button(new Make()).onClick();
-        new Button(new Close()).onClick();
+        new RemoteControl(new Open()).onClick();
+        new RemoteControl(new Make()).onClick();
+        new RemoteControl(new Close()).onClick();
 
 
     }

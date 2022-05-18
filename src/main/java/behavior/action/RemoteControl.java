@@ -1,10 +1,10 @@
 package behavior.action;
 
-public class Button {
+public class RemoteControl {
 
     private IAction action;
 
-    public Button(IAction action){
+    public RemoteControl(IAction action){
         this.action = action;
     }
 
