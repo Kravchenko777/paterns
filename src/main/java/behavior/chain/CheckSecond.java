@@ -10,6 +10,8 @@ public class CheckSecond extends ACheck {
     @Override
     public Boolean doCheck(String param) {
         System.out.println(param+ "Second");
-        return null;
+
+        nextCheck(param);
+        return true;
     }
 }

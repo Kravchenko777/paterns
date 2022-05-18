@@ -10,6 +10,7 @@ public class CheckLast extends ACheck {
     @Override
     public Boolean doCheck(String param) {
         System.out.println(param + "Last");
-        return null;
+        nextCheck(param);
+        return true;
     }
 }
