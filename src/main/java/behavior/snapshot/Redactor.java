@@ -5,9 +5,18 @@ public class Redactor {
     private String attrStr;
     private Boolean bool;
     private Integer inter;
+    private Snapshot snapshot;
 
-    public Snapshot makeSnapshot(){
-        return new Snapshot(this,attrStr,bool,inter);
+    public void makeSnapshot(){
+        snapshot = new Snapshot(attrStr,bool,inter);
+    }
+
+    public void restore(){
+        snapshot.restore(this);
+    }
+
+    public String getAttrStr() {
+        return attrStr;
     }
 
     public void setAttrStr(String attrStr) {
@@ -20,9 +29,5 @@ public class Redactor {
 
     public void setInter(Integer inter) {
         this.inter = inter;
-    }
-
-    public String getAttrStr() {
-        return attrStr;
     }
 }
