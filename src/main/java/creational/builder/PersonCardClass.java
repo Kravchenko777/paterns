@@ -1,5 +1,8 @@
 package creational.builder;
 
+/*
+    Класс объекта, экземпляр которого будет создаваться через патерн Builder
+ */
 public class PersonCardClass {
 
     private String fio;
