@@ -1,7 +1,9 @@
 package structural.facade;
 
+// Класс фасада
 public class Facade {
 
+    // Упрощенный интерфейс
     public Boolean makeProgram(){
        IDeveloper developer = new JavaDeveloper();
        IManager manager = new Manager();
