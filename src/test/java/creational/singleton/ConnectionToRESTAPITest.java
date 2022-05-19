@@ -12,6 +12,7 @@ public class ConnectionToRESTAPITest {
 
     @Test
     void testSingleton(){
+        // Получение экземпляра объекта
         ConnectionToRESTAPI connectionFirst = ConnectionToRESTAPI.getInstance();
         ConnectionToRESTAPI connectionSecond = ConnectionToRESTAPI.getInstance();
 

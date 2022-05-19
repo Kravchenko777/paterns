@@ -1,5 +1,8 @@
 package creational.singleton;
 
+/*
+    Решение задачи с использование Enum
+ */
 public enum ConnectionToRESTAPIEnum {
 
     url("https://url.net"),
