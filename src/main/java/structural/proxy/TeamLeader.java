@@ -3,6 +3,7 @@ package structural.proxy;
 import java.util.ArrayList;
 import java.util.List;
 
+// Реализация Заместителя
 public class TeamLeader implements IDeveloper{
 
     @Override
