@@ -1,9 +1,10 @@
 package structural.adapter;
 
+// Класс адаптера
 public class Adapter implements IMessage {
 
     @Override
-    public String getMessage() {
-        return String.valueOf(new IntegerMessage().getMessage());
+    public String getMessage(IntegerMessage integerMessage) {
+        return String.valueOf(integerMessage.getMessageInt());
     }
 }

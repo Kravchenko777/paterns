@@ -1,6 +1,7 @@
 package structural.adapter;
 
+// Интерфейс адаптера
 public interface IMessage {
 
-    public String getMessage();
+    public String getMessage(IntegerMessage integerMessage);
 }
