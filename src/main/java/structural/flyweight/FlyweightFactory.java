@@ -3,8 +3,10 @@ package structural.flyweight;
 import java.util.HashMap;
 import java.util.Map;
 
+// Паттерн простая фабрика
 public class FlyweightFactory {
 
+    // Кэширование объектов
     private static final Map<String, Message> messages = new HashMap<>();
 
     public Message getMessage(String type){
@@ -26,4 +28,5 @@ public class FlyweightFactory {
         }
         return message;
     }
-}
+
+    }
