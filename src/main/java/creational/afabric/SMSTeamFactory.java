@@ -1,5 +1,8 @@
 package creational.afabric;
 
+/*
+    Реализация интерфейса фабрики
+ */
 public class SMSTeamFactory implements IProjectTeamFactory{
     @Override
     public IDeveloper getDeveloper() {

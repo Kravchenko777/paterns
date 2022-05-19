@@ -1,5 +1,8 @@
 package creational.afabric;
 
+/*
+    Реализация интерфейса фабрики
+ */
 public class GMPTeamFactory implements IProjectTeamFactory{
     @Override
     public IDeveloper getDeveloper() {
