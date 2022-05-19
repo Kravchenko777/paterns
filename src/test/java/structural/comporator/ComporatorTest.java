@@ -3,7 +3,12 @@ package structural.comporator;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-
+/*
+    Паттерн Компоновщик объединяет объекты
+    в древовидные структуры для представления
+    иерархий «часть/целое». Компоновщик позволяет клиенту выполнять однородные операции
+    с отдельными объектами и их совокупностями.
+ */
 public class ComporatorTest {
 
     @Test
