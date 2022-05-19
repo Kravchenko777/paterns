@@ -1,7 +1,11 @@
 package structural.decorator;
 
 import org.junit.jupiter.api.Test;
-
+/*
+    Паттерн Декоратор динамически наделяет объект новыми
+    возможностями и является гибкой альтернативой
+    субклассированию в области расширения функциональности.
+ */
 public class DecoratorTest {
 
     @Test

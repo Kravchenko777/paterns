@@ -1,5 +1,6 @@
 package structural.decorator;
 
+// Декоратор
 public class Decorator implements IObject {
 
     protected IObject wrapper;
