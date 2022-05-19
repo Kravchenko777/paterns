@@ -1,5 +1,6 @@
 package structural.bridge;
 
+// Реализация
 public class BMW implements ICar{
     @Override
     public void enableSignal() {

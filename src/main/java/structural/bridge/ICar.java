@@ -1,5 +1,6 @@
 package structural.bridge;
 
+// Интерфейс объекта
 public interface ICar {
 
     public void enableSignal();

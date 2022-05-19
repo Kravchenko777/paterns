@@ -1,5 +1,6 @@
 package structural.bridge;
 
+// Реализация платформы
 public class SimpleKey extends Key{
 
     public SimpleKey(ICar car) {

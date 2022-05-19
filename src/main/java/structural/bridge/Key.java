@@ -1,5 +1,6 @@
 package structural.bridge;
 
+// Абстракция платформы
 public abstract class Key {
 
     protected ICar car;

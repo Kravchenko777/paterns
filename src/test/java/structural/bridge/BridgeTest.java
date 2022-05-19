@@ -1,7 +1,9 @@
 package structural.bridge;
 
 import org.junit.jupiter.api.Test;
-
+/*
+    Используйте паттерн Мост, если изменяться может не только реализация, но и абстракции.
+ */
 public class BridgeTest {
 
     @Test

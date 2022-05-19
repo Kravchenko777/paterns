@@ -1,5 +1,6 @@
 package structural.bridge;
 
+// Реализация платформы
 public class SuperKey extends Key{
 
     public SuperKey(ICar car) {
