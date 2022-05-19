@@ -1,5 +1,8 @@
 package creational.prototype;
 
+/*
+    Фабрика, создающая экземпляр прототипа
+ */
 public class FabricPrototype {
 
     IPrototype prototype;

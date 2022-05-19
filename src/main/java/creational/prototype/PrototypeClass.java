@@ -1,5 +1,8 @@
 package creational.prototype;
 
+/*
+    Класс реализующий интерфейс прототипа
+ */
 public class PrototypeClass implements IPrototype {
 
     private String fio;
