@@ -1,7 +1,7 @@
 package creational.builder;
 
 /*
-    Класс объекта, экземпляр которого будет создаваться через патерн Builder
+    Класс объекта, экземпляр которого будет создаваться через паттерн Builder
  */
 public class PersonCardClass {
 
