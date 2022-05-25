@@ -1,25 +1,31 @@
 package behavior.observer;
 
-
+/*
+    Паттерн Наблюдатель определяет отношение
+    «один ко многим» между объектами таким образом,
+    что при изменении состояния одного объекта происходит
+    автоматическое оповещение и обновление всех зависимых объектов
+ */
 import org.junit.jupiter.api.Test;
 
 public class ObserverTest {
 
     @Test
-    void testSnapshot(){
-        Client client = new Client();
-        Client2 client2 = new Client2();
-        Client3 client3 = new Client3();
-        Newspaper server = new Newspaper();
-        server.addClient(client);
-        server.addClient(client2);
-        server.addClient(client3);
+    void testObserver(){
+        ClientFirst clientFirst = new ClientFirst();
+        ClientSecond clientSecond = new ClientSecond();
+        ClientThird clientThird = new ClientThird();
+        Publisher server = new Publisher();
+        server.addSubscriber(clientFirst);
+        server.addSubscriber(clientSecond);
+        server.addSubscriber(clientThird);
 
         server.sendNews("First news");
         server.sendNews("Second news");
+        server.removeSubscriber(clientSecond);
         server.sendNews("Last news");
 
-        client3.setNewspaper(server);
-        client3.read();
+        clientThird.setNewspaper(server);
+        clientThird.read();
     }
 }

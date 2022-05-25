@@ -1,15 +1,15 @@
 package behavior.observer;
 
-public class Client3 implements IClient{
+public class ClientThird implements Subscriber {
 
-    private Newspaper newspaper;
+    private Publisher newspaper;
 
     @Override
     public void getNews(String news) {
-        System.out.println("Client 3: "+news);
+        System.out.println("ClientThird: "+news);
     }
 
-    public void setNewspaper(Newspaper newspaper){
+    public void setNewspaper(Publisher newspaper){
         this.newspaper = newspaper;
     }
 
