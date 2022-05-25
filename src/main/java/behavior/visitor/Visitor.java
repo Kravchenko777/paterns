@@ -2,28 +2,30 @@ package behavior.visitor;
 
 import java.util.List;
 
+//Интерфейс посетителя
 public class Visitor {
 
-    public void doForClass1(Class1 class1){
-        class1.makeClass1();
+    // методы посещения объектов
+    public void doForClassFirst(ClassFirst classFirst){
+        classFirst.makeClassFirst();
     }
 
-    public void doForClass2(Class2 class2){
-        class2.makeClass2();
+    public void doForClassSecond(ClassSecond classSecond){
+        classSecond.makeClassSecond();
     }
 
-    public void doForClass3(Class3 class3){
-        class3.makeClass3();
+    public void doForClassThird(ClassThird classThird){
+        classThird.makeClassThird();
     }
 
     public void makeWork(List<Node> nodes){
         for(Node node:nodes){
-            if(node instanceof Class3){
-                doForClass3((Class3) node);
-            } else if(node instanceof Class2) {
-                doForClass2((Class2) node);
-            } else if(node instanceof Class1) {
-                doForClass1((Class1) node);
+            if(node instanceof ClassThird){
+                doForClassThird((ClassThird) node);
+            } else if(node instanceof ClassSecond) {
+                doForClassSecond((ClassSecond) node);
+            } else if(node instanceof ClassFirst) {
+                doForClassFirst((ClassFirst) node);
             }
         }
     }

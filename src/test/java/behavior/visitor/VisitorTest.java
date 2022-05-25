@@ -6,15 +6,20 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    Паттерн Посетитель используется для расширения
+    возможностей комбинации объектов в том случае,
+    если инкапсуляция несущественна.
+ */
 public class VisitorTest {
 
-    private Boolean is = true;
     static List<Node> nodes = new ArrayList<>();
+
     @BeforeAll
     static void init(){
-        nodes.add(new Class1());
-        nodes.add(new Class2());
-        nodes.add(new Class3());
+        nodes.add(new ClassFirst());
+        nodes.add(new ClassSecond());
+        nodes.add(new ClassThird());
     }
 
     @Test
