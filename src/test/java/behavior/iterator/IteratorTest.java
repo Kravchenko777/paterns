@@ -3,6 +3,10 @@ package behavior.iterator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/*
+    Паттерн Итератор предоставляет механизм последовательного перебора
+    элементов коллекции без раскрытия ее внутреннего представления.
+ */
 public class IteratorTest {
 
     @Test
