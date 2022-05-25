@@ -4,6 +4,11 @@ package behavior.snapshot;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/*
+    Паттерн Хранитель используется для реализации возврата к
+    одному из предыдущих состояний (например,
+    если пользователь выполнил команду «Отменить»).
+ */
 public class MementoTest {
 
     @Test

@@ -1,5 +1,6 @@
 package behavior.snapshot;
 
+//Целевой класс
 public class Redactor {
 
     private String attrStr;
